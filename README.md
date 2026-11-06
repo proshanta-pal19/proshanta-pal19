@@ -17,19 +17,19 @@
 ## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.webp" width="20" height="20"  alt="about me"/> About Me
 
 ```python
+# ~/about_me.py
 class Engineer:
     def __init__(self):
         self.name     = "Proshanta Pal"
         self.role     = "CS Student"
         self.location = "Chattogram, Bangladesh"
-        self.learning = ["Python OOP", "Data Structures & Algorithms", "AI / ML"]
+        self.learning = ["Python OOP", "Data Structures & Algorithms", "AI/ML"]
         self.goal     = "Crack AI/ML roles"
 
-    def say_hi(self):
-        print("Thanks for stopping by! Let's build something awesome 🚀")
+    def __str__(self):
+        return "Curious. Consistent. Compounding"
 
-me = Engineer()
-me.say_hi()
+print(Engineer())
 ```
 
 - 🔭**Currently working on:** Python, FastAPI, SQL
@@ -105,13 +105,11 @@ me.say_hi()
 
 <!-- Socials -->
 ## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f587_fe0f/512.webp" width="20" height="20" alt="connect"/> Let's Connect
-<br/>
 <div align="center"> 
-  <a href="https://linkedin.com/in/proshanta-pal" target="_blank"><img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LinkedIn/linkedin1.svg" alt="linkedin"/></a>
-  <a href="https://github.com/proshanta-pal19" target="_blank"><img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github3.svg" alt="github" /></a>
-  <a href="https://leetcode.com/u/proshanta-pal/" target="_blank"><img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LeetCode/leetcode2.svg" alt="leetcode" /></a>
+  <a href="https://www.linkedin.com/in/proshanta-pal19/" target="_blank"><img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LinkedIn/linkedin1.svg" alt="linkedin"/></a>
+  <a href="https://github.com/proshanta-pal19" target="_blank"><img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github3.svg" alt="github" />     </a>
 
-<br/><br/>
+<br/> <br/>
 
 <!-- Random dev quote -->
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote"/>
